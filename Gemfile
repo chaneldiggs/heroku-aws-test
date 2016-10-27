@@ -12,6 +12,10 @@ group :production do
 	gem 'rails_12factor'
 	gem 'pg'
 end
+
+gem 'fog'
+
+gem 'figaro'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
