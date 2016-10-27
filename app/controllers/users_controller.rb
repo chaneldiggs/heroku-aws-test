@@ -4,7 +4,11 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    puts "************"
+    puts "HEY THERE!"
     puts "#{ENV['AWS_ACCESS_KEY_ID']}"
+    puts "************"
+
     @users = User.all
   end
 
