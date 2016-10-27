@@ -7,6 +7,8 @@ class UsersController < ApplicationController
     puts "************"
     puts "HEY THERE!"
     puts "#{ENV['AWS_ACCESS_KEY_ID']}"
+    puts "#{ENV['AWS_SECRET_ACCESS_KEY']}"
+    puts "#{ENV['S3_REGION']}"
     puts "************"
 
     @users = User.all
